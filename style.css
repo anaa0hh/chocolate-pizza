@@ -1,31 +1,93 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-    
-    main h1 {
-    font-size: 30px;
+.content {
+    max-width: 900px;
+    margin: auto;
 }
 
+header nav {
+    margin-top: 45px;
+}
+#chocoPizzaLogo {
+    float:left;
+    margin-right: 3px;
+}
 
-header {
-    background-color: aqua;
-    height: 120px;
+
+body p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: rgb(170, 170, 170);
+   
+}
+
+header h2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 32px;
+    display:inline;
 
 }
 
-main {
-    width: 800px;
-    background-color: aqua;
-    margin: 0px auto;    
- 
+header h3 {
+    font-family: 'Amatic SC', cursive;
+    display: inline;
 }
 
-main img {
-    width: 800px;
+
+
+  .repeating-linear{
+    width: 900px;
+    height: 15px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+  }.repeating-linear {
+    background: repeating-linear-gradient(-45deg, rgb(170, 170, 170), rgb(170, 170, 170) 1px, rgb(255, 255, 255) 1px, rgb(255, 255, 255) 3px);
+  }
+
+
+body h1 {
+    font-size: 40px;
+    margin: 30px 0px 2px 0px;
+    font-family: 'Oswald', sans-serif;
+    border-top-color: gray
 }
 
-footer {
-    width: 800px;
-    background-color: purple;
-    margin: 30px auto;
+body h4 {
+    font-size: 15px;
+    margin: 0px 0px 50px 0px;
+    border-bottom-width: 10px;
+    border-bottom-color: aquamarine;
+}
+
+#socmed {
+    float:right;
+}
+
+img#twitter {
+    margin-right: 10px;
+}
+
+p {
+    width:900px;
+}
+
+img#choco-pizza {
+    width:900px;
+    align-content: center;
+}
+
+#review {
+    float:left;
+    margin-right: 10px;
+}
+
+#vanessaName {
+    font-size: 25px;
+    font-style: bold;
+    color:black;
+    text-align: left;
+    float: left;
+}
+#vanessaComment {
+    display:inline;
+    font-size: 20px;
+    color: rgb(170, 170, 170);
 }
